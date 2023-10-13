@@ -8,18 +8,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - restaurants
-  - detail
-  - mine_rule
-
-
-slots:
-  results:
-  type: text
-  mapping:
-  - type: custom
-    action: action_show_restaurants
-
 
 responses:
   utter_greet:
@@ -40,9 +28,6 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
-
-  utter_rule:
-  - text: "Yes, a member can continue to hold office until the appointment of their successor is notified in the Official Gazette."
 
 session_config:
   session_expiration_time: 60

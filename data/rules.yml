@@ -11,8 +11,3 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
-
-- rule: Say 'Bot' anytime the user asks name
-  steps:
-  - intent: tell_name
-  - action: utter_Bot  
