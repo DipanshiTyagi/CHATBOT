@@ -537,10 +537,6 @@ nlu:
      - "What impact does mining have on local communities?"
      - "How mining impact local communities?"
      - "Mining impact on local communities"                             
-       
-
-
-
 
 - intent: bot_challenge
   examples: |
@@ -548,6 +544,249 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: mine_act
+  examples: |
+    - What does the Act prohibit regarding the employment of children and their age?
+    - Tell me what the Act prohibits in terms of children's employment and their age?
+    - The Act forbids what in relation to children's employment and their age?
+    - What is prohibited by the Act concerning the employment of children and their age?
+
+- intent: rule1 
+  examples: |
+    - What function is attributed to Chief Inspectors and Inspectors in the implementation of the Act?
+    - Can you describe the responsibilities or duties of Chief Inspectors and Inspectors as outlined in the Act?
+    - According to the Act, what is the specific role that Chief Inspectors and Inspectors are expected to perform?
+    - What is the part played by Chief Inspectors and Inspectors in the execution of the Act? 
+
+- intent: rule2
+  examples: |
+    - Who has the authority to appoint a court of inquiry in cases of accidents in or about a mine?
+
+- intent: rule3
+  examples: | 
+    - What powers are granted to the person appointed to conduct an inquiry into a mine accident?
+    - What authority does the individual appointed to investigate a mine accident have in terms of powers?
+    - What are the powers vested in the person designated to hold an inquiry into a mine accident?
+    - What abilities does the person appointed to inquire into a mine accident possess under this section?
+
+- intent: rule4
+  examples: | 
+    - What is the anticipated result of an inquiry conducted under this section? 
+    - What is the expected outcome of an inquiry held as described in the paragraph? 
+    - What is the mandated conclusion of an inquiry conducted in these circumstances? 
+    - What is the prescribed outcome of an inquiry held in cases of mine accidents?
+
+- intent: rule5
+  examples: |
+    - In what situations can the Central Government appoint one or more assessors when conducting an inquiry?
+    - When does the Central Government have the authority to designate one or more assessors in the course of an inquiry?
+    - Under what conditions is the Central Government permitted to appoint one or more assessors in the process of conducting an inquiry?
+    - What are the specific circumstances in which the Central Government can appoint one or more assessors for an inquiry?
+
+- intent: rule6
+  examples: |
+    - When a person working in a mine contracts a disease related to mining operations, who is tasked with sending the notice? 
+    - In the event of a disease connected with mining operations, who is designated to send the notice when a mine employee becomes afflicted? 
+    - Whose responsibility is it to notify the authorities when a disease linked to mining operations is contracted by a mine worker?
+    - When a person employed in a mine is affected by a disease associated with mining operations, who is the responsible party for sending the notice?
+
+- intent: rule7
+  examples: |
+    - To whom should the notice be sent when a person in a mine contracts a disease related to mining operations? 
+
+- intent: rule8
+  examples: |
+    - What is the duty of a medical practitioner attending to a person who is suffering from a mining-related disease or is believed to be?
+
+- intent: rule9
+  examples: |
+    - What information should the report submitted by a medical practitioner include when attending to a patient with a mining-related disease?
+
+- intent: rule10
+  examples: |
+    - When must the owner, agent, or manager of a mine send notice in the event of a mining-related disease? 
+
+- intent: rule11
+  examples: |
+    - What authorities are responsible for receiving the notice when a person in a mine contracts a disease connected with mining operations? 
+
+- intent: rule12
+  examples: |
+    - What is the purpose of the notice and report regarding diseases connected with mining operations? 
+
+- intent: rule13
+  examples: |
+    - What is the maximum weekly working hours for adults employed above ground in a mine? 
+
+- intent: rule14
+  examples: |
+    - What is the maximum daily working hours for adults employed above ground in a mine?
+
+- intent: rule15
+  examples: |
+    - How are the work periods and rest intervals arranged for adults employed above ground in a mine?
+
+- intent: rule16
+  examples: |
+    - Where is a woman prohibited from being employed in a mine?
+
+- intent: rule17
+  examples: |
+    - When can a woman be employed in a mine above ground?
+
+- intent: rule18
+  examples: |
+    - What is the penalty for counterfeiting or making false statements in certificates?
+
+- intent: rule19
+  examples: | 
+    - What is the penalty for using a counterfeit or false certificate knowingly? 
+
+
+- intent: rule20
+  examples: |
+    - What is the penalty for falsifying any plan, section, register, or record required?
+    - What is the penalty for omitting to make or furnish required plans, sections, returns, or records under this Act?
+
+
+- intent: rule21
+  examples: |
+    - What is the penalty for contravening provisions regarding the employment of labor in or about a mine? 
+
+- intent: rule22
+  examples: |
+    - What is the penalty for employing persons below eighteen years of age in a mine in contravention of section 40?
+
+- intent: rule23
+  examples: |
+    - What is the penalty for failing to appoint a manager in contravention of section 17?
+
+- intent: rule24
+  examples: |
+    - What is the penalty for failing to give notice of any accidental occurrence or post a notice as required in section 70? 
+
+- intent: rule25
+  examples: |
+    - What does the Act prohibit regarding the employment of children and their age?
+    - Tell me what the Act prohibits in terms of children's employment and their age?
+    - The Act forbids what in relation to children's employment and their age?
+    - What is prohibited by the Act concerning the employment of children and their age?
+
+
+- intent: rule26
+  examples: |
+    - What specific employment does Section 40 of the Act prohibit for children?
+    - Can you tell me what type of employment is forbidden for children according to Section 40?
+    - According to Section 40, what kind of work is not allowed for children? 
+    - In terms of children's employment, what does Section 40 of the Act regulate? 
+
+- intent: rule27
+  examples: |
+    - Under what conditions does Section 45 of the Act restrict individuals below eighteen from being present in a mine above ground?
+    - Tell me the circumstances under which Section 45 prohibits people under eighteen from being in an above-ground mine. 
+    - According to Section 45, when are individuals below eighteen not allowed to be in a mine above ground? 
+    - What does Section 45 specify about people under eighteen being present in an above-ground mine? 
+
+
+- intent: rule28
+  examples: |
+    - What is the main purpose of appointing a Chief Inspector and Inspectors as per the Act?
+    - Tell me the primary role of the Chief Inspector and Inspectors as established by the Act. 
+    - According to the Act, why are Chief Inspectors and Inspectors appointed?
+    - What does the Act aim to achieve through the appointment of a Chief Inspector and Inspectors? 
+
+
+- intent: rule29
+  examples: |
+    - What is the minimum age for employment in excavations related to mineral extraction according to the Act? 
+    - Can you state the age at which employment in mineral extraction excavations is prohibited by the Act? 
+    - At what age are individuals not allowed to work in excavations for mineral extraction as specified in the Act?
+    - What age is the Act concerned with when it comes to employment in excavations for mineral extraction? 
+
+
+- intent: rule30
+  examples: |
+    - What specific employment for children is prohibited by Section 40 of the Act? 
+    - Can you detail the type of children's employment that Section 40 of the Act restricts?
+    - According to the Act, what kind of work is disallowed for children by Section 40?
+    - In terms of children's employment, what is regulated by Section 40 of the Act?
+
+
+- intent: rule31
+  examples: |
+    - Under what conditions does Section 45 of the Act limit the presence of individuals below eighteen years of age in a mine above ground? 
+    - Can you explain the situations in which Section 45 of the Act prevents individuals under eighteen from being present in an above-ground mine?
+    - According to Section 45, when are persons below eighteen not allowed to be in a mine above ground?
+    - What does Section 45 specify about individuals under eighteen being present in an above-ground mine?
+
+
+- intent: rule32
+  examples: |
+    - What is the main function or purpose of appointing a Chief Inspector and Inspectors according to the Act? 
+    - Can you explain why the Act provides for the appointment of a Chief Inspector and Inspectors?
+    - According to the Act, what role do Chief Inspectors and Inspectors play? 
+    - What is the objective of appointing a Chief Inspector and Inspectors as outlined in the Act?
+
+
+- intent: rule33
+  examples: |
+    - What age must children be to work in excavations related to mineral extraction according to the Act? 
+    - Can you state the minimum age for children to be employed in mineral extraction excavations as per the Act? 
+    - According to the Act, at what age are children permitted to work in excavations for mineral extraction? 
+    - What is the age threshold for children's employment in mineral extraction excavations as specified in the Act?
+
+
+- intent: rule34
+  examples: |
+    - Which kinds of mines are subject to the employment prohibition described in Section 40? 
+    - Can you specify the types of mines affected by the employment restriction in Section 40?
+    - According to Section 40, which categories of mines are included in the employment prohibition? 
+    - What does Section 40 of the Act pertain to regarding the types of mines involved in the employment prohibition?
+
+- intent: rule35
+  examples: |
+    - What specific part of a mine above ground are individuals under eighteen years of age restricted from according to Section 45?
+    - Can you describe the particular area in a mine above ground where individuals under eighteen are not permitted as per Section 45?
+    - According to Section 45, where in a mine above ground are persons under eighteen not allowed?
+    - What does Section 45 of the Act specify regarding the location within a mine above ground where individuals under eighteen are prohibited?
+
+
+- intent: rule36
+  examples: |
+    - Who bears the responsibility for ensuring that the rules and regulations under the Act are followed?
+    - Can you identify the entity or individuals accountable for enforcing compliance with the rules and regulations set out in the Act?
+    - According to the Act, who is tasked with making sure the rules and regulations are adhered to?
+    - What does the Act designate as the responsible party for upholding the rules and regulations?
+
+
+- intent: rule37
+  examples: |
+    - What age serves as the limit for children to be present in portions of a mine above ground according to Section 45?
+    - Can you specify the maximum age for children to be in areas of a mine above ground as established by Section 45?
+    - According to Section 45, at what age are children allowed to be in sections of a mine above ground?
+    - What is the age threshold for children to be present in parts of a mine above ground as per Section 45 of the Act?
+
+
+- intent: rule38
+  examples: |
+    - Can you describe the responsibilities or duties of Chief Inspectors and Inspectors as outlined in the Act?
+    - According to the Act, what is the specific role that Chief Inspectors and Inspectors are expected to perform? 
+    - What is the part played by Chief Inspectors and Inspectors in the execution of the Act?
+
+
+- intent: rule39
+  examples: |
+    - What conditions allow for children to be employed in excavations related to mineral extraction?
+    - Can you specify the situations in which children are permitted to work in mineral extraction excavations? - According to the Act, what are the circumstances under which children can be engaged in excavations for mineral extraction?
+    - What does the Act state about the circumstances in which children can work in mineral extraction excavations?
+
+- intent: rule40
+  examples: |
+    - Who has the constitutional responsibility for the safety, welfare, and health of workers employed in mines in India?
+    - Under the Constitution, which authority is accountable for the safety, welfare, and health of workers in Indian mines?
+    - According to the Constitution, who is charged with ensuring the safety, welfare, and health of workers in mines in India? 
+    - What entity is constitutionally responsible for worker safety, welfare, and health in Indian mines?
 
 
 
