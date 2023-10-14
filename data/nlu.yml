@@ -105,14 +105,12 @@ nlu:
     - How did the initial conditions and practices in natural resource exploitation in India differ from contemporary standards and rules?
     - What were the consequences of the absence of comprehensive regulations for the exploitation of natural resources in early India in terms of sustainability and social impact?
 
-
 - intent: get_info4
   examples: |
     - What was the impact of the lack of regulation in the mineral sector on the growth of mafias in India?
     - How did the absence of regulation in the mineral sector contribute to the emergence and growth of criminal mafias in India?
     - What specific industries or regions within the mineral sector were most affected by the influence of mafias due to the lack of regulations in India?
     - In what ways did the rise of mineral sector mafias hinder the economic development and governance in India, and what were the societal implications?
-
 
 - intent: get_info5
   examples: |
@@ -128,14 +126,12 @@ nlu:
     - Can you provide a timeline of significant milestones and key years in the process of drafting and implementing new laws for India's mineral sector?
     - How long did it take to complete the drafting and enactment of the new laws governing India's mineral sector, and were there any significant delays or challenges during this process
 
-
 - intent: get_info7
   examples: |
     - How did the absence of laws affect the growth of communities in India?
     - In what ways did the lack of legal frameworks impact the economic and social development of communities in India?
     - Can you provide examples of specific challenges that communities in India faced due to the absence of relevant laws, and how did these challenges affect their growth?
     - What were the societal and cultural consequences of the absence of laws in certain regions of India on the development and well-being of local communities
-
 
 - intent: get_info8
   examples: |
@@ -144,14 +140,12 @@ nlu:
     - Can you provide an overview of the various categories into which minerals in mining are typically classified, and what are their characteristics?
     - How does the categorization of minerals in mining affect the processes, regulations, and environmental considerations associated with their extraction and utilization?
 
-
 - intent: get_info9
   examples: | 
     -  By whome are major and minor  mineral of mining goverered ?
     - What are the regulatory authorities responsible for governing major and minor minerals in the mining industry in India, and what are their respective roles and responsibilities?
     - Can you explain the differences in governance and regulatory bodies for major and minor minerals in the mining sector, and how do these distinctions impact the industry?
     - How have changes in governance and regulations for major and minor minerals influenced the mining industry's operations and compliance in India over time?
-
 
 - intent: get_info10
   examples: |
@@ -160,14 +154,12 @@ nlu:
     - Can you provide examples of critical decisions and actions that a manager must take when faced with an emergency, and how do these decisions impact the response and recovery process?
     - How does effective emergency management by a manager differ in various types of emergencies, and what skills and training are essential for carrying out these duties successfully?
 
-
 - intent: get_info11
   examples: |
     - Who should the manager inform when an emergency requiring a rescue team's services is likely to occur?
     - What is the standard protocol for a manager to follow when they anticipate an emergency necessitating a rescue team, including who should be informed and in what order?
     - Are there specific procedures and communication channels that a manager should adhere to when foreseeing an emergency situation that may require a rescue team's assistance?
     - How does the hierarchy and coordination of notifying relevant parties differ in various types of emergencies, and what factors influence the decision-making process for a manager in these situations?
-
 
 - intent: get_info12
   examples: |
@@ -183,14 +175,12 @@ nlu:
     - Can you describe the key roles and responsibilities of the individuals or teams that a mine manager should summon during an emergency, and how do they contribute to the overall response efforts?
     - How does the nature of the emergency, such as a fire, cave-in, or gas leak, influence the decision-making process of a mine manager in determining whom to summon, and what factors are considered in such situations?
 
-
 - intent: get_info14
   examples: |
     - If needed, who should the manager inform about the availability of rescue-trained persons from nearby mines?
     - What is the standard procedure for a manager to communicate and inform relevant parties about the presence of rescue-trained individuals from nearby mines in the event of an emergency requiring their assistance?
     - Can you describe the coordination and communication channels that a manager should utilize to ensure the availability of rescue-trained personnel from neighboring mines is known and accessible during an emergency?
     - How do the manager's actions and responsibilities change based on the specific emergency scenario, and what factors influence the decision to seek assistance from rescue-trained personnel from nearby mines?
-
 
 - intent: get_info15
   examples: |
@@ -199,14 +189,12 @@ nlu:
     - Can you outline a protocol or checklist for managers to ensure that the necessary information about the emergency's nature is effectively conveyed to the rescue station, and what role does clear communication play in such situations?
     - How does the type of emergency, such as a fire, gas leak, or structural collapse, impact the specific information that should be relayed to the rescue station, and what considerations should a manager keep in mind when reporting the incident?
 
-
 - intent: get_info16
   examples: |
     -  What is one of the duties of the manager in an emergency related to medical assistance?
     - What specific responsibilities does a manager have in providing medical assistance during an emergency, and how do they coordinate with medical personnel and resources?
     - Can you describe the role of a manager in triaging and prioritizing medical assistance to individuals in an emergency, and what training and resources are necessary to fulfill this duty effectively?
     - How does the nature and scale of the emergency influence the manager's role in facilitating medical assistance, and what are the key considerations for ensuring the well-being of those affected?
-
 
 - intent: get_info17
   examples: |
@@ -215,14 +203,12 @@ nlu:
     - Can you outline the specific roles and responsibilities of the recipients of information from the manager during an emergency, and how does their prompt communication contribute to the overall response efforts?
     - How does the urgency and nature of the emergency situation influence the manager's decisions regarding whom to inform, and what considerations guide the selection of recipients for the information?
 
-
 - intent: get_info18
   examples: |
     - What is the manager's role in dealing with emergencies in the mine?
     - Can you provide a detailed description of the specific duties and responsibilities that a mine manager is expected to perform when dealing with emergencies underground?
     - How does the manager's role in handling mine emergencies differ based on the type of emergency, such as a fire, cave-in, or gas leak, and what strategies are employed to effectively manage these situations?
     - What kind of training and preparation are required for a mine manager to fulfill their role in emergency response, and how do they coordinate with rescue teams and other stakeholders to ensure the safety of personne
-
 
 - intent: get_info19
   examples: |
@@ -231,14 +217,12 @@ nlu:
     - Can you describe the critical factors or triggers that determine the timing of a manager's actions during an emergency, and how do these factors influence their decision-making process?
     - How does the immediacy of the emergency situation, such as a sudden hazard or a developing crisis, impact the manager's ability to perform their listed duties effectively, and what strategies are in place to ensure timely responses?
 
-
 - intent: get_info20
   examples: |
     - How does the immediacy of the emergency situation, such as a sudden hazard or a developing crisis, impact the manager's ability to perform their listed duties effectively, and what strategies are in place to ensure timely responses?
     - What are the key objectives and benefits of notifying nearby mines about an emergency in a mine, and how does this collaborative approach contribute to overall safety and response efforts?
     - Can you elaborate on the role of nearby mines in assisting during emergencies and how timely communication helps achieve a more effective and coordinated response?
     - How does the type of emergency and its potential impact on neighboring mines influence the decision to inform them, and what considerations guide the manager's actions in such cases?
-
 
 - intent: get_info21
   examples: |
@@ -247,7 +231,6 @@ nlu:
     - Can you describe the communication and coordination processes involved when the responsibility for summoning medical assistance falls upon specific individuals, and how does this impact the overall emergency response?
     - How is the decision on who should summon medical assistance influenced by the type and severity of the emergency, and what considerations guide this choice in various situations?
 
-
 - intent: get_info22
   examples: |
     - What happens if there is no manager present during an emergency?
@@ -255,13 +238,11 @@ nlu:
     - Can you provide an overview of the contingency plans and backup personnel in place to ensure a coordinated response if a manager is unavailable during an emergency?
     - How does the absence of a manager impact the overall response time, coordination, and effectiveness in addressing different types of emergencies, and what steps are taken to mitigate potential challenges in their absence?
     
-
 - intent: get_info23
   examples: |
     - What type of assistance is the manager expected to request from the rescue station?
     - Can you outline the specific resources and support that a manager should request from the rescue station during different types of emergencies in order to ensure a comprehensive response?
     - What criteria and considerations guide the manager in determining the nature and extent of assistance required from the rescue station, and how do these requests impact the effectiveness of emergency response efforts?
-
 
 - intent: get_info24
   examples: |
@@ -270,14 +251,12 @@ nlu:
     - Can you provide examples of the types of authorities that should be informed during mine emergencies, and how does their timely communication contribute to effective coordination and decision-making?
     - How does the severity and scale of the emergency influence the decision on which authorities to inform, and what considerations guide the selection of recipients for this information in different emergency scenarios?
 
-
 - intent: get_info25
   examples: |
     - Who is responsible for the control, direction, and supervision of rescue and recovery work in a below ground mine?
     - Can you describe the roles and responsibilities of the individuals or teams responsible for controlling, directing, and supervising rescue and recovery work in a below-ground mine during emergencies, and how do they coordinate these efforts effectively?
     - How does the hierarchy of leadership and decision-making evolve during rescue and recovery operations in a below-ground mine, and what factors influence the selection of individuals to oversee these critical tasks?
     - What specialized training and qualifications are required for those in charge of rescue and recovery efforts in underground mine emergencies, and how does their expertise contribute to successful outcomes in challenging situations?
-
 
 - intent: get_info26
   examples: |
@@ -286,14 +265,12 @@ nlu:
     - Can you provide examples of specific situations or challenges in mine emergencies that warrant the manager or principal official to request guidance, and what resources or experts are typically consulted in such cases?
     - How do the complexity, scale, or unique characteristics of a given emergency influence the manager's decision to seek guidance, and what considerations guide this process to ensure the most effective response and safety of personnel?
 
-
 - intent: get_info27
   examples: |
     - Who should be consulted for guidance in the event of a major emergency at a below ground mine?
     - Can you provide an overview of the specific experts and authorities who should be consulted for guidance during a major emergency in a below-ground mine, and what are their respective roles in the decision-making process?
     - How does the nature and severity of the major emergency affect the selection of individuals or teams to be consulted for guidance, and what protocols ensure effective communication and collaboration in such critical situations?
     - What measures and preparations are in place to ensure timely and efficient consultations with the relevant experts, and how does this guidance contribute to the overall response and safety of personnel in below-ground mine emergencies?
-
 
 - intent: get_info28
   examples: |
@@ -302,14 +279,12 @@ nlu:
     - What are the roles and responsibilities of the group that is consulted in major emergency situations, and how does their input influence decision-making, safety measures, and resource allocation?
     - How do the dynamics of the emergency, such as its scale, complexity, or potential impact on the group, guide the decision to seek their input, and what considerations govern this process during different types of emergencies?
 
-
 - intent: get_info29
   examples: |
     - Who takes control of rescue and recovery work if the manager is absent?
     - Can you describe the established protocols and procedures in place for designating a responsible individual to take control of rescue and recovery work in the event of the manager's absence during mine emergencies, and how is this transition of authority coordinated?
     - What qualifications, training, and expertise are required for the designated individual who assumes control in the absence of the manager, and how do they ensure a seamless and effective response to emergencies?
     - How does the nature and scale of the emergency, as well as the availability of qualified personnel, influence the decision on who takes control, and what measures are in place to ensure continuity of leadership in such cases?
-
 
 - intent: get_info30
   examples: |
@@ -318,14 +293,12 @@ nlu:
     - What are the specific types of emergencies or incidents that are typically classified as major in underground mining, and how do these situations differ from more routine or minor incidents?
     - How do the consequences, risks, and potential impact on personnel and operations guide the classification of an emergency as major in below-ground mining, and what actions are taken to respond to such events effectively?
 
-
 - intent: get_info31
   examples: |
     - How is guidance sought in a major emergency, and from whom?
     - Can you describe the standard procedures and communication channels for seeking guidance in a major emergency, and who are the key individuals or experts typically consulted during such critical situations in the mining industry?
     - How do the specific roles and responsibilities of those responsible for seeking guidance, such as the manager or emergency response teams, vary in a major emergency, and how is coordination with external experts and authorities established?
     - What measures and protocols are in place to ensure timely and effective consultations with relevant parties during a major emergency, and how does the guidance obtained contribute to making informed decisions and ensuring the safety of personnel?
-
 
 - intent: get_info32
   examples: |
@@ -334,14 +307,12 @@ nlu:
     - Can you describe the typical roles and functions of the group in the decision-making process during a major emergency, and how does their input contribute to informed and effective decisions?
     - How does the specific nature and severity of the major emergency influence whether the manager or principal official can afford to wait for the group's constitution or deliberations, and what considerations guide this choice during different types of emergencies?
 
-
 - intent: get_info33
   examples: |
     - Who is responsible for directing rescue and recovery operations during a major emergency?
     - Can you explain the hierarchy and roles of individuals or teams responsible for directing rescue and recovery operations during a major emergency in a below-ground mine, and how is leadership transition managed?
     - What qualifications and expertise are required for the designated individuals directing rescue and recovery operations, and how does their experience contribute to effective decision-making and coordination in challenging circumstances?
     - How does the nature and scale of the major emergency impact the selection of individuals to lead rescue and recovery efforts, and what measures ensure a seamless and efficient transition of control in such situations?
-
 
 - intent: get_info34
   examples: |
@@ -350,14 +321,12 @@ nlu:
     - What qualifications, training, and expertise are expected of the person taking charge in the manager's absence, and how do they ensure a smooth and effective response to emergencies?
     - How do the nature and scale of the emergency, as well as the availability of qualified personnel, influence the determination of who takes charge when the manager is absent, and what measures are in place to ensure continuity of leadership in such scenarios?
 
-
 - intent: get_info35
   examples: |
     - Who is authorized to allow entry into below ground mines for rescue or recovery work?
     - What are the specific roles and responsibilities of the individuals or authorities who hold the authorization to permit entry into below-ground mines for rescue or recovery work during emergencies, and how is this authority granted and managed?
     - Can you describe the criteria and decision-making processes that guide the authorization for entry into below-ground mines in emergency situations, and how is this coordination carried out to ensure the safety of personnel?
     - How do the nature of the emergency, its risks, and the expertise of the authorized individuals influence the determination of who can allow entry into below-ground mines for rescue or recovery work, and what measures are in place to facilitate this process effectively?
-
 
 - intent: get_info36
   examples: |
@@ -366,14 +335,12 @@ nlu:
     - How do factors such as safety, environmental concerns, and the state of the mine influence the decision on whether the conditions for entry are met, and how is this determination communicated to the relevant parties?
     - What measures and protocols are in place to ensure that the conditions for entry are evaluated and met effectively, and how does this process contribute to the overall safety and success of rescue and recovery operations in below-ground mines? 
 
-
 - intent: get_info37
   examples: |
     - Who can enter a below ground mine for rescue or recovery work?
     - What are the specific qualifications, training, and roles of individuals or teams who are authorized to enter a below-ground mine for rescue or recovery work during emergencies, and how is their expertise essential to these operations?
     - Can you describe the criteria and decision-making processes for determining who can enter a below-ground mine for rescue or recovery work, and how are these determinations made to ensure the safety of personnel?
     - How does the type of emergency, its potential risks, and the availability of qualified personnel influence the selection of those who can enter a below-ground mine, and what measures are in place to facilitate their entry effectively and safely?
-
 
 - intent: get_info38
   examples: |
@@ -382,14 +349,12 @@ nlu:
     - How does the nature of the emergency influence the specific purposes and responsibilities of rescue trained individuals when they enter a mine, and what measures are in place to ensure their actions align with the immediate needs of the situation?
     - What coordination and communication strategies are employed to ensure that rescue trained persons understand and fulfill their designated purposes when entering the mine during emergencies, and how does their expertise contribute to a successful response?
 
-
 - intent: get_info39
   examples: |
     - Under what circumstances can unauthorized personnel enter a below ground mine for rescue or recovery work?
     - What are the specific conditions or situations under which unauthorized personnel may be permitted to enter a below-ground mine for rescue or recovery work, and how are these exceptions determined and regulated?
     - Can you describe the decision-making processes and criteria that guide the potential entry of unauthorized personnel into a below-ground mine during emergencies, and what safety measures are in place to mitigate associated risks?
     - How does the nature and urgency of the emergency influence the consideration of allowing unauthorized personnel to enter the mine for rescue or recovery work, and what protocols are in place to manage such situations effectively?
-
 
 - intent: get_info40
   examples: |
@@ -398,14 +363,12 @@ nlu:
     - Can you describe the qualifications, roles, and expertise of the person authorized to permit entry in the manager's absence, and how do they ensure a safe and coordinated response during emergencies?
     - How does the nature and urgency of the emergency influence the determination of who can authorize entry when the manager is absent, and what measures are in place to ensure continuity of decision-making and safety procedures in such scenarios?
 
-
 - intent: get_info41
   examples: |
     - What is the main requirement for entry into a below ground mine for rescue or recovery work?
     - Can you outline the primary criteria or requirements that individuals or teams must meet before they are allowed to enter a below-ground mine for rescue or recovery work, and how are these requirements established and verified?
     - How does the type of emergency, its associated risks, and the condition of the mine influence the primary requirement for entry, and what measures are in place to ensure compliance with this requirement in various situations?
     - What protocols and safety measures are in place to ensure that the main entry requirement is met effectively, and how does this contribute to the overall safety and success of rescue and recovery operations in below-ground mines?
-
 
 - intent: get_info42
   examples: |
@@ -414,14 +377,12 @@ nlu:
     - How is the selection of apparatus and equipment for rescue trained persons determined based on the type of emergency and its associated hazards, and what measures ensure the proper maintenance and readiness of these tools?
     - What safety protocols and training are in place to ensure that rescue trained persons can effectively and safely operate the authorized apparatus in the mine, and how does their use contribute to the successful execution of rescue and recovery tasks?
 
-
 - intent: get_info43
   examples: |
     - Is entry into a below ground mine for rescue or recovery work restricted in any way?
     - What are the specific restrictions or limitations placed on entry into a below-ground mine for rescue or recovery work, and how are these restrictions determined and communicated to ensure safety and compliance?
     - Can you describe the factors or circumstances that may lead to restrictions on entry into the mine for rescue or recovery work, and how are these decisions made to mitigate risks associated with emergencies?
     - How does the type of emergency, the condition of the mine, and the qualifications of personnel influence the restrictions on entry, and what measures are in place to enforce these restrictions effectively?
-
 
 - intent: get_info44
   examples: |
@@ -430,14 +391,12 @@ nlu:
     - How does the nature of the emergency, such as a fire, collapse, or gas leak, influence the specific purposes and responsibilities of individuals entering the mine, and what measures ensure their actions align with the immediate needs of the situation?
     - What coordination and communication strategies are employed to ensure that the primary purposes for entering the mine are understood and fulfilled by rescue and recovery personnel, and how does their expertise contribute to a successful response?
 
-
 - intent: get_info45
   examples: |
     -  Who can grant permission to enter a below ground mine for rescue or recovery work?
     - What is the established protocol and hierarchy for designating individuals or authorities who have the authority to grant permission for entry into a below-ground mine for rescue or recovery work, and how is this permission process regulated and managed?
     - Can you describe the qualifications, roles, and expertise of the individuals authorized to permit entry, and how do they ensure a safe and coordinated response during emergencies?
     - How does the nature and urgency of the emergency influence the determination of who can grant permission when entering the mine for rescue or recovery work, and what measures are in place to ensure the proper oversight and control of this authority?
-
 
 - intent: get_info46
   examples: |
@@ -446,7 +405,7 @@ nlu:
     - How does the principal official coordinate with other stakeholders and emergency response teams when facilitating entry into the mine, and what decision-making processes are involved in fulfilling this role?
     - What measures and protocols are in place to ensure that the principal official's role is carried out effectively and safely, and how does their oversight and authorization contribute to the overall success of rescue and recovery operations in the mine?
 
- - intent: mine_rule
+- intent: mine_rule
   examples: |
     - "Is it permissible for a member to remain in office once the three-year term has ended?"
     - "Is it allowed for a member to continue in their position after the three-year term has concluded?"
@@ -673,7 +632,6 @@ nlu:
     - The Act forbids what in relation to children's employment and their age?
     - What is prohibited by the Act concerning the employment of children and their age?
 
-
 - intent: rule26
   examples: |
     - What specific employment does Section 40 of the Act prohibit for children?
@@ -688,14 +646,12 @@ nlu:
     - According to Section 45, when are individuals below eighteen not allowed to be in a mine above ground? 
     - What does Section 45 specify about people under eighteen being present in an above-ground mine? 
 
-
 - intent: rule28
   examples: |
     - What is the main purpose of appointing a Chief Inspector and Inspectors as per the Act?
     - Tell me the primary role of the Chief Inspector and Inspectors as established by the Act. 
     - According to the Act, why are Chief Inspectors and Inspectors appointed?
     - What does the Act aim to achieve through the appointment of a Chief Inspector and Inspectors? 
-
 
 - intent: rule29
   examples: |
@@ -704,14 +660,12 @@ nlu:
     - At what age are individuals not allowed to work in excavations for mineral extraction as specified in the Act?
     - What age is the Act concerned with when it comes to employment in excavations for mineral extraction? 
 
-
 - intent: rule30
   examples: |
     - What specific employment for children is prohibited by Section 40 of the Act? 
     - Can you detail the type of children's employment that Section 40 of the Act restricts?
     - According to the Act, what kind of work is disallowed for children by Section 40?
     - In terms of children's employment, what is regulated by Section 40 of the Act?
-
 
 - intent: rule31
   examples: |
@@ -720,7 +674,6 @@ nlu:
     - According to Section 45, when are persons below eighteen not allowed to be in a mine above ground?
     - What does Section 45 specify about individuals under eighteen being present in an above-ground mine?
 
-
 - intent: rule32
   examples: |
     - What is the main function or purpose of appointing a Chief Inspector and Inspectors according to the Act? 
@@ -728,14 +681,12 @@ nlu:
     - According to the Act, what role do Chief Inspectors and Inspectors play? 
     - What is the objective of appointing a Chief Inspector and Inspectors as outlined in the Act?
 
-
 - intent: rule33
   examples: |
     - What age must children be to work in excavations related to mineral extraction according to the Act? 
     - Can you state the minimum age for children to be employed in mineral extraction excavations as per the Act? 
     - According to the Act, at what age are children permitted to work in excavations for mineral extraction? 
     - What is the age threshold for children's employment in mineral extraction excavations as specified in the Act?
-
 
 - intent: rule34
   examples: |
@@ -751,14 +702,12 @@ nlu:
     - According to Section 45, where in a mine above ground are persons under eighteen not allowed?
     - What does Section 45 of the Act specify regarding the location within a mine above ground where individuals under eighteen are prohibited?
 
-
 - intent: rule36
   examples: |
     - Who bears the responsibility for ensuring that the rules and regulations under the Act are followed?
     - Can you identify the entity or individuals accountable for enforcing compliance with the rules and regulations set out in the Act?
     - According to the Act, who is tasked with making sure the rules and regulations are adhered to?
     - What does the Act designate as the responsible party for upholding the rules and regulations?
-
 
 - intent: rule37
   examples: |
@@ -767,13 +716,11 @@ nlu:
     - According to Section 45, at what age are children allowed to be in sections of a mine above ground?
     - What is the age threshold for children to be present in parts of a mine above ground as per Section 45 of the Act?
 
-
 - intent: rule38
   examples: |
     - Can you describe the responsibilities or duties of Chief Inspectors and Inspectors as outlined in the Act?
     - According to the Act, what is the specific role that Chief Inspectors and Inspectors are expected to perform? 
     - What is the part played by Chief Inspectors and Inspectors in the execution of the Act?
-
 
 - intent: rule39
   examples: |
