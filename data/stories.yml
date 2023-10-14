@@ -28,3 +28,208 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: happy name path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tell_name
+  - action: utter_name
+  - intent: mine_act
+  - action: utter_act
+  - intent: rule1 
+  - action: utter_rule1
+
+- story: rule second path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tell_name
+  - action: utter_name 
+  - intent: rule2
+  - action: utter_rule2
+
+- story: rule third path
+  steps:
+  - intent: rule3
+  - action: utter_rule3
+
+- story: rule fourth path
+  steps:
+  - intent: rule4
+  - action: utter_rule4
+
+
+- story: rule fifth path
+  steps: 
+  - intent: rule5
+  - action: utter_rule5
+
+- story: rule sixth path
+  steps:
+  - intent: rule6
+  - action: utter_rule6
+
+- story: rule seven path
+  steps:
+  - intent: rule7
+  - action: utter_rule7
+
+- story: rule eight path
+  steps: 
+  - intent: rule8
+  - action: utter_rule8
+
+- story: rule ninth path
+  steps:
+  - intent: rule9
+  - action: utter_rule9
+
+- story: rule tenth path
+  steps:
+  - intent: rule10
+  - action: utter_rule10
+
+- story: rule elevenfth path
+  steps:
+  - intent: rule11
+  - action: utter_rule11
+
+- story: rule twelvefth path
+  steps:
+  - intent: rule12
+  - action: utter_rule12
+
+- story: rule thirteenth path
+  steps:
+  - intent: rule13
+  - action: utter_rule13
+
+- story: rule fourteenth path
+  steps:
+  - intent: rule14
+  - action: utter_rule14
+
+- story: rule fifteenth path
+  steps:
+  - intent: rule15
+  - action: utter_rule15
+
+- story: rule sixteenth path
+  steps: 
+  - intent: rule16
+  - action: utter_rule16
+
+- story: rule seventeenth path
+  steps: 
+  - intent: rule17
+  - action: utter_rule17
+
+- story: rule eighteenth path
+  steps:
+  - intent: rule18
+  - action: utter_rule18
+
+- story: rule nineteenth path
+  steps:
+  - intent: rule19
+  - action: utter_rule19
+- story: rule twentieth path
+  steps:
+  - intent: rule20
+  - action: utter_rule20
+
+- story: rule twentyone path
+  steps:
+  - intent: rule21
+  - action: utter_rule22
+
+- story: rule twentythree path
+  steps:
+  - intent: rule23
+  - action: utter_rule23
+
+- story: rule twentyfour path
+  steps:
+  - intent: rule24
+  - action: utter_rule24
+
+- story: rule twentyfive path
+  steps:
+  - intent: rule25
+  - action: utter_rule25
+
+- story: rule twentysix path
+  steps:
+  - intent: rule26
+  - action: utter_rule26
+
+- story: rule twentyseven path
+  steps:
+  - intent: rule27
+  - action: utter_rule27
+
+- story: rule twentyeight path
+  steps:
+  - intent: rule28
+  - action: utter_rule28
+
+- story: rule twentynine path
+  steps:
+  - intent: rule29
+  - action: utter_rule29
+
+- story: rule thirty path
+  steps: 
+  - intent: rule30
+  - action: utter_rule30
+
+- story: rule thirtyone path
+  steps:
+  - intent: rule31
+  - action: utter_rule31
+
+- story: rule thirtytwo path
+  steps:
+  - intent: rule32
+  - action: utter_rule32
+
+- story: rule thirtythree path
+  steps: 
+  - intent: rule33
+  - action: utter_rule33
+
+- story: rule thirtyfour path
+  steps:
+  - intent: rule34
+  - action: utter_rule34
+
+- story: rule thirtyfive path
+  steps: 
+  - intent: rule35
+  - action: utter_rule35
+
+- story: rule thirtysix path
+  steps:
+  - intent: rule36
+  - action: utter_rule36
+
+- story: rule thirtyseven path
+  steps:
+  - intent: rule37
+  - action: utter_rule37
+
+- story: rule thirtyeight path
+  steps: 
+  - intent: rule38
+  - action: utter_rule38
+
+- story: rule thirtynine path
+  steps: 
+  - intent: rule39
+  - action: utter_rule39
+
+- story: rule forty path
+  steps: 
+  - intent: rule40
+  - action: utter_rule40
