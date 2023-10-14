@@ -34,7 +34,6 @@ stories:
   - intent: tell_name
   - action: utter_name
   
-  
 - story: info first path
   steps:
   - intent: get_info2
@@ -50,252 +49,210 @@ stories:
   - intent: get_info4
   - action: utter_name4
 
-
 - story: info fourth path
   steps:
   - intent: get_info5
   - action: utter_name5
-
 
 - story: info fifth path
   steps:
   - intent: get_info6
   - action: utter_name6
 
-
 - story: info sixth path
   steps:
   - intent: get_info7
   - action: utter_name7
-
 
 - story: info seventh path
   steps:
   - intent: get_info8
   - action: utter_name8
 
-
 - story: info eighth path
   steps:
   - intent: get_info9
   - action: utter_name9
-
 
 - story: info ninth path
   steps:
   - intent: get_info10
   - action: utter_name10
 
-
 - story: info tenth path
   steps:
   - intent: get_info11
   - action: utter_name11
-
 
 - story: info eleventh path
   steps:
   - intent: get_info12
   - action: utter_name12
 
-
 - story: info twelth path
   steps:
   - intent: get_info13
   - action: utter_name13
-
 
 - story: info thirteen path
   steps:
   - intent: get_info14
   - action: utter_name14
 
-
 - story: info fourteen path
   steps:
   - intent: get_info15
   - action: utter_name15
-
 
 - story: info fifteen path
   steps:
   - intent: get_info16
   - action: utter_name16
 
-
 - story: info sixteen path
   steps:
   - intent: get_info17
   - action: utter_name17
-
 
 - story: info seventeen path
   steps:
   - intent: get_info18
   - action: utter_name18
 
-
 - story: info eighteen path
   steps:
   - intent: get_info19
   - action: utter_name19
-
 
 - story: info ninteen path
   steps:
   - intent: get_info20
   - action: utter_name20
 
-
 - story: info tweenty path
   steps:
   - intent: get_info21
   - action: utter_name21
-
 
 - story: info tweentyone path
   steps:
   - intent: get_info22
   - action: utter_name22
 
-
 - story: info tweentytwo path
   steps:
   - intent: get_info23
   - action: utter_name23
-
 
 - story: info tweentythree path
   steps:
   - intent: get_info24
   - action: utter_name24
 
-
 - story: info tweentyfour path
   steps:
   - intent: get_info25
   - action: utter_name25
-
 
 - story: info tweentyfive path
   steps:
   - intent: get_info26
   - action: utter_name26
 
-
 - story: info tweentysix path
   steps:
   - intent: get_info27
   - action: utter_name27
-
 
 - story: info tweentyeight path
   steps:
   - intent: get_info28
   - action: utter_name28
 
-
 - story: info tweentynine path
   steps:
   - intent: get_info29
   - action: utter_name29
-
 
 - story: info thirty path
   steps:
   - intent: get_info30
   - action: utter_name30
 
-
 - story: info thirtyone path
   steps:
   - intent: get_info31
   - action: utter_name31
-
 
 - story: info thirtytwo path
   steps:
   - intent: get_info32
   - action: utter_name32
 
-
 - story: info thirtythree path
   steps:
   - intent: get_info33
   - action: utter_name33
-
 
 - story: info thirtyfour path
   steps:
   - intent: get_info34
   - action: utter_name34
 
-
 - story: info thirtyfive path
   steps:
   - intent: get_info35
   - action: utter_name35
-
 
 - story: info thirtysix path
   steps:
   - intent: get_info36
   - action: utter_name36
 
-
 - story: info thirtyseven path
   steps:
   - intent: get_info37
   - action: utter_name37
-
 
 - story: info thirtyseven path
   steps:
   - intent: get_info38
   - action: utter_name38
 
-
 - story: info thirtyeight path
   steps:
   - intent: get_info39
   - action: utter_name39
-
 
 - story: info thirtynine path
   steps:
   - intent: get_info40
   - action: utter_name40
 
-
 - story: info fourty path
   steps:
   - intent: get_info41
   - action: utter_name41
-
 
 - story: info fourtyone path
   steps:
   - intent: get_info42
   - action: utter_name42
 
-
 - story: info fourtytwo path
   steps:
   - intent: get_info43
   - action: utter_name43
-
 
 - story: info fourtythree path
   steps:
   - intent: get_info44
   - action: utter_name44
 
-
 - story: info fourtyfour path
   steps:
   - intent: get_info45
   - action: utter_name45
-
 
 - story: info fourtyfive path
   steps:
@@ -371,9 +328,9 @@ stories:
    - intent: communities
    - action: utter_communities 
 
-- story: happy name path
+- story: rule first path
   steps:
-    - intent: mine_act
+  - intent: mine_act
   - action: utter_act
   - intent: rule1 
   - action: utter_rule1
@@ -396,7 +353,6 @@ stories:
   steps:
   - intent: rule4
   - action: utter_rule4
-
 
 - story: rule fifth path
   steps: 
