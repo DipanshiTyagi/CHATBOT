@@ -191,7 +191,6 @@ responses:
   utter_name20:
   - text: The purpose of informing nearby mines is to make available the services of rescue-trained persons employed therein if required.
 
-
   utter_name21:
   - text: The manager is responsible for summoning medical assistance.
 
@@ -241,13 +240,11 @@ responses:
   utter_name36:
   - text: Entry is allowed if the mine is safe for the purpose.
 
-
   utter_name37:
   - text: Only rescue trained persons are permitted to enter the mine.
 
   utter_name38:
   - text: They are allowed to enter the mine for the purpose of using self-contained breathing apparatus.
-
 
   utter_name39:
   - text: Unauthorized personnel cannot enter unless authorized by the manager or principal official of the mine.
@@ -289,6 +286,7 @@ responses:
 
   utter_rule:
   - text: "Yes, a member can continue to hold office until the appointment of their successor is notified in the Official Gazette."
+ 
   utter_communities:
   - text: "Mining can have both positive and negative impacts on local communities. It can create jobs and stimulate economic development, but it can also lead to land displacement, cultural disruptions, and environmental degradation. Community engagement and benefit-sharing agreements are often used to address these concerns."
 
@@ -315,6 +313,7 @@ responses:
   
   utter_code:
   - text: The term "Act" refers to the Mines Act, 1952.
+  
   utter_act:
   - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
   
