@@ -54,6 +54,20 @@ intents:
   - get_info44
   - get_info45
   - get_info46
+  - mine_rule
+  - chairman
+  - committee
+  - mining
+  - importance
+  - types
+  - impact
+  - technology
+  - safety
+  - challenges
+  - exploration
+  - companies
+  - communities
+
   
   
 responses:
@@ -221,6 +235,45 @@ responses:
 
   utter_name46:
   - text: The principal official can authorize entry in the absence of the manager.
+
+   utter_chairman:
+  - text: The Chairman must direct that a question be considered at a meeting if three or more members make such a request."
+
+  utter_committee:
+  - text: "The Chairman may decide whether questions are considered at meetings or by the circulation of papers."
+   
+  utter_impact:
+  - text: "Mining can have significant environmental impacts, such as habitat destruction, soil erosion, water pollution, and air pollution. Mitigation measures and environmental regulations are put in place to minimize these impacts."
+  
+  utter_mining:
+  - text: "Mining is the extraction of valuable minerals or other geological materials from the Earth. This can include metals, coal, oil, natural gas, gemstones, and more."
+
+  utter_rule:
+  - text: "Yes, a member can continue to hold office until the appointment of their successor is notified in the Official Gazette."
+  utter_communities:
+  - text: "Mining can have both positive and negative impacts on local communities. It can create jobs and stimulate economic development, but it can also lead to land displacement, cultural disruptions, and environmental degradation. Community engagement and benefit-sharing agreements are often used to address these concerns."
+
+  utter_companies:
+  - text: "Major mining companies include BHP, Rio Tinto, Vale, Anglo American, Glencore, and many others. These companies are involved in various aspects of mining and resource extraction."
+
+  utter_exploration:
+  - text: "Mineral exploration is the process of searching for mineral deposits before mining begins. It involves geological surveys, geophysical methods, geochemical analysis, and drilling to assess the potential of a site."
+
+  utter_challenges:
+  - text: "Challenges in the mining industry include resource depletion, environmental concerns, labor and safety issues, community relations, and geopolitical factors. Mining companies must navigate these challenges to operate responsibly and sustainably."
+
+  utter_safety:
+  - text: "Mining can be a hazardous occupation, and safety is paramount. Safety measures include protective gear for workers, ventilation systems in underground mines, monitoring for gases, and regular safety inspections. Mine safety regulations are enforced in many countries."
+
+  utter_technology:
+  - text: "Mining technology varies depending on the type of mining. It may involve drilling, blasting, excavation, transportation of materials, and processing. Modern mining often utilizes advanced equipment, computer modeling, and remote sensing technology to optimize operations."
+
+  utter_types: 
+  - text: "There are several types of mining, including surface mining (open-pit mining, strip mining), underground mining, placer mining, mountaintop removal mining, and subsurface mining, each tailored to the characteristics of the deposit being mined."
+
+  utter_importance:
+  - text: "Mining is important because it provides essential raw materials for various industries, including construction, manufacturing, energy production, and technology. It also contributes to economic growth and job creation in many regions."
+
 
 
   utter_code:
