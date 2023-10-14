@@ -97,6 +97,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    
 - intent: mine_act
   examples: |
     - What does the Act prohibit regarding the employment of children and their age?
@@ -339,3 +340,96 @@ nlu:
     - Under the Constitution, which authority is accountable for the safety, welfare, and health of workers in Indian mines?
     - According to the Constitution, who is charged with ensuring the safety, welfare, and health of workers in mines in India? 
     - What entity is constitutionally responsible for worker safety, welfare, and health in Indian mines?
+
+ - intent: mine_rule
+  examples: |
+    - "Is it permissible for a member to remain in office once the three-year term has ended?"
+    - "Is it allowed for a member to continue in their position after the three-year term has concluded?"
+    - "Can a member extend their tenure in office beyond the initial three-year term?"
+    - "Is it within the rules for a member to hold office past the expiration of the three-year term?
+
+- intent: chairman
+  examples: |    
+    - "In what circumstances is the Chairman obligated to instruct the consideration of a question referred by the circulation of papers at a meeting?"
+    - "What conditions must be met for the Chairman to be required to direct the discussion of a question referred through the circulation of papers in a meeting?"
+    - "When is it mandatory for the Chairman to issue instructions for the consideration of a question referred by the circulation of papers during a Committee meeting?"
+    - "What triggers the Chairman's directive to have a question referred by the circulation of papers taken up for discussion at a meeting?"
+
+- intent: committee
+  examples: |
+    - "Who may decide how questions required to be considered by the Committee are handled?"
+    - "Who has the authority to determine the procedures for managing questions that are required to be considered by the Committee?"
+    - "In terms of decision-making, who is responsible for establishing the processes for dealing with questions that must be considered by the Committee?"
+    - "Which individuals or entities are empowered to make decisions regarding the handling of questions that are mandated for consideration by the Committee?"
+    - "What is the designated authority that can decide on the methods and approaches for dealing with questions that the Committee is obligated to consider?"
+
+- intent: mining
+  examples: |
+    -  "What is mining?"
+    - "Tell me something about mining."
+    - "What mining is?"
+    - "mining"
+
+- intent: importance
+  examples: |
+     - "Why is mining important?"
+     - "Importance of mining"
+     - "Why mining should be done?"
+     - "why mining" 
+
+- intent: types
+  examples: |
+     - "What are the types of mining?"
+     - "What are different types of mining?"
+     - "How many types of mining exists?"
+     - "Different forms of mining."  
+
+- intent: impact
+  examples: |
+     - "What are the environmental impacts of mining?"
+     - "How does mining impact environment"
+     - "Environmental impact of mining"
+     - "How does mining impact environment?"  
+
+- intent: technology
+  examples: |
+     - "How does mining technology work?"
+     - "Tell about the technology used in mining."
+     - "What technology does mining use"
+     - "Mining Technology"              
+
+- intent: safety
+  examples: |
+     - "What are some key safety considerations in mining?"
+     - "Tell about some safety measures to consider in mining ."
+     - "What safety considerations do we need to keep in mind?  "
+     - "Safety considertions in mining"   
+
+- intent: challenges
+  examples: |
+     - "What are some challenges in the mining industry?"
+     - "Tell about some challenges in the mining industry."
+     - "What challenges do we face in mining "
+     - "Challenges in mining"    
+
+- intent: exploration
+  examples: |
+     - "How is mineral exploration conducted?"
+     - "What is mineral exploration?"
+     - "How mineral exploration is carried out in mining "
+     - "Mineral exploration in mining "  
+
+- intent: companies
+  examples: |
+     - "What are the major mining companies in the world?"
+     - "Name some major mining companies in the world"
+     - "How many popular mining companies exists in the world?"
+     - "Mining companies"   
+
+- intent: communities
+  examples: |
+     - "How does mining impact local communities?"
+     - "What impact does mining have on local communities?"
+     - "How mining impact local communities?"
+     - "Mining impact on local communities"                             
+       
