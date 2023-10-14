@@ -8,7 +8,49 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-
+  - tell_name
+  - mine_act
+  - rule1
+  - rule2
+  - rule3
+  - rule4
+  - rule5
+  - rule6
+  - rule7
+  - rule8
+  - rule9
+  - rule10
+  - rule11
+  - rule12
+  - rule13
+  - rule14
+  - rule15
+  - rule16
+  - rule17
+  - rule18
+  - rule19
+  - rule20
+  - rule21
+  - rule22
+  - rule23
+  - rule24
+  - rule25
+  - rule26
+  - rule27
+  - rule28
+  - rule29
+  - rule30
+  - rule31
+  - rule32
+  - rule33
+  - rule34
+  - rule35
+  - rule36
+  - rule37
+  - rule38
+  - rule39
+  - rule40
+  
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -28,6 +70,138 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_name:
+  - text: "My name is Bot."
+
+  utter_act:
+  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
+  
+  utter_rule1:
+  - text: "Chief Inspectors and Inspectors are appointed to ensure the observance of rules, bye-laws, regulations, provisions, and orders made under the Act."
+
+  utter_rule2:
+  - text: "The Central Government has the authority to appoint a court of inquiry in cases of accidents in or about a mine."
+  
+  utter_rule3:
+  - text: "The person appointed to hold an inquiry has all the powers of a civil court under the Code of Civil Procedure 1908, for the purpose of enforcing the attendance of witnesses and compelling the production of documents and material objects."
+
+  utter_rule4:
+  - text: "The person holding an inquiry under this section must make a report to the Central Government stating the causes of the accident and its circumstances, and adding any observations that he or any of the assessors may think fit to make."
+
+  utter_rule5:
+  - text: "The Central Government may appoint one or more persons possessing legal or special knowledge to act as assessors in holding the inquiry when an accident of the specified nature occurs in or about a mine."
+
+  utter_rule6:
+  - text: "owner, agent, or manager of the mine is responsible for sending notice."
+
+  utter_rule7:
+  - text: "notice should be sent to the Chief Inspector and other authorities as prescribed."
+
+  utter_rule8:
+  - text: "medical practitioner must send a written report to the Chief Inspector."
+
+  utter_rule9:
+  - text: "The report should include the patient's name and address, the disease they are suffering from or believed to be suffering from, and the name and address of the mine in which the patient is or was last employed."
+
+  utter_rule10:
+  - text: "The notice must be sent in such form and within the time as prescribed."
+
+  utter_rule11:
+  - text: "The Chief Inspector and other authorities as prescribed are responsible for receiving the notice."
+
+  utter_rule12:
+  - text: "The purpose is to inform the relevant authorities about cases of diseases related to mining operations for further action and investigation."
+
+  utter_rule13:
+  - text: "The maximum weekly working hours for adults employed above ground in a mine are forty-eight hours."
+
+  utter_rule14:
+  - text: "The maximum daily working hours for adults employed above ground in a mine are nine hours, with the possibility of extension subject to the Chief Inspector's approval."
+
+  utter_rule15:
+  - text: "Work periods and rest intervals are arranged so that they do not spread over more than twelve hours in any day, and there is a rest interval of at least half an hour after every five continuous working hours."
+
+  utter_rule16:
+  - text: "A woman is prohibited from being employed in any part of a mine which is below-ground."
+
+  utter_rule17:
+  - text: "A woman can be employed in a mine above ground only between the hours of 6 am and 7 am."
+
+  utter_rule18:
+  - text: "penalty for counterfeiting or making false statements in certificates under this Act may extend to three months' imprisonment, a fine of up to one thousand rupees, or both."
+
+  utter_rule19:
+  - text: "The penalty for using a counterfeit or false certificate knowingly is imprisonment for up to three months, a fine of up to one thousand rupees, or both."
+
+  utter_rule20:
+  - text: "The penalty for falsifying any plan, section, register, or record required under this Act is imprisonment for up to three months, a fine of up to one thousand rupees, or both."
+
+  utter_rule21:
+  - text: "The penalty for contravening provisions regarding the employment of labor in or about a mine can be imprisonment for up to three months, a fine of up to one thousand rupees, or both."
+
+  utter_rule22:
+  - text: "The penalty for employing persons below eighteen years of age in a mine in contravention of section 40 is a fine of up to five hundred rupees."
+
+  utter_rule23:
+  - text: "The penalty for failing to appoint a manager in contravention of section 17 can be imprisonment for up to three months, a fine of up to two thousand and five hundred rupees, or both."
+
+  utter_rule24:
+  - text: "The penalty for failing to give notice of any accidental occurrence or post a notice as required in section 70 may extend to three months' imprisonment, a fine of up to five hundred rupees, or both."
+
+  utter_rule25:
+  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
+
+  utter_rule26:
+  - text: "Section 40 prohibits the employment of children in underground or open-cast mines."
+
+  utter_rule27:
+  - text: "Section 45 prohibits persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to any mining operation."
+
+  utter_rule28:
+  - text: "The Act provides for the appointment of a Chief Inspector and Inspectors to ascertain that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
+
+  utter_rule29:
+  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
+
+  utter_rule30:
+  - text: "Section 40 prohibits the employment of children in underground or open-cast mines."
+
+  utter_rule31:
+  - text: "Section 45 restricts persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to mining operations."
+
+  utter_rule32:
+  - text: "The Act provides for the appointment of a Chief Inspector and Inspectors to ensure that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
+
+  utter_rule33:
+  - text: "Children below 18 years of age are prohibited from working in excavations for mineral extraction as per the Act."
+
+  utter_rule34:
+  - text: "Section 40 of the Act covers the prohibition of children's employment in both underground and open-cast mines."
+
+  utter_rule35:
+  - text: "Section 45 prohibits persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to mining operations."
+
+  utter_rule36:
+  - text: "The Chief Inspector and Inspectors are responsible for ensuring that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
+  
+  utter_rule37:
+  - text: "Section 45 restricts persons below eighteen years of age from being present in any part of a mine above ground."
+
+  utter_rule38:
+  - text: "Chief Inspectors and Inspectors are appointed to ensure the observance of rules, bye-laws, regulations, provisions, and orders made under the Act."
+
+  utter_rule39:
+  - text: "Children are prohibited from working in excavations related to mineral extraction under the Act."
+
+  utter_rule40:
+  - text: "The Central Government is responsible for the safety, welfare, and health of workers employed in mines in India under the Constitution."
+
+
+
+
+
+
 
 session_config:
   session_expiration_time: 60
