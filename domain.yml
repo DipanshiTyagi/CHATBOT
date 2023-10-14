@@ -1,4 +1,4 @@
-version: "3.1"
+version: "2.0"
 
 intents:
   - greet
@@ -115,7 +115,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://png.pngtree.com/png-clipart/20220603/original/pngtree-smile-icon-logo-vector-design-png-image_7905043.png"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -130,7 +130,7 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_name:
-  - text: My name is Innovate Yourself . 
+  - text: My name is Mining Bot made by Code Crafters. 
 
   utter_name2:
   - text: The absence of laws governing the mineral sector in India resulted in the exploitation of natural resources without control, leading to the concentration of wealth in the hands of a few and the growth of mafias.
