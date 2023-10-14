@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.1"
 
 stories:
 
@@ -29,276 +29,291 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: happy name path
-  steps:
-  - intent: greet
-  - action: utter_greet
+- story: Happy name path
+  steps: 
   - intent: tell_name
   - action: utter_name
-  - intent: mine_act
-  - action: utter_act
-  - intent: rule1 
-  - action: utter_rule1
-
-- story: rule second path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: tell_name
-  - action: utter_name 
-  - intent: rule2
-  - action: utter_rule2
-
-- story: rule third path
-  steps:
-  - intent: rule3
-  - action: utter_rule3
-
-- story: rule fourth path
-  steps:
-  - intent: rule4
-  - action: utter_rule4
-
-
-- story: rule fifth path
-  steps: 
-  - intent: rule5
-  - action: utter_rule5
-
-- story: rule sixth path
-  steps:
-  - intent: rule6
-  - action: utter_rule6
-
-- story: rule seven path
-  steps:
-  - intent: rule7
-  - action: utter_rule7
-
-- story: rule eight path
-  steps: 
-  - intent: rule8
-  - action: utter_rule8
-
-- story: rule ninth path
-  steps:
-  - intent: rule9
-  - action: utter_rule9
-
-- story: rule tenth path
-  steps:
-  - intent: rule10
-  - action: utter_rule10
-
-- story: rule elevenfth path
-  steps:
-  - intent: rule11
-  - action: utter_rule11
-
-- story: rule twelvefth path
-  steps:
-  - intent: rule12
-  - action: utter_rule12
-
-- story: rule thirteenth path
-  steps:
-  - intent: rule13
-  - action: utter_rule13
-
-- story: rule fourteenth path
-  steps:
-  - intent: rule14
-  - action: utter_rule14
-
-- story: rule fifteenth path
-  steps:
-  - intent: rule15
-  - action: utter_rule15
-
-- story: rule sixteenth path
-  steps: 
-  - intent: rule16
-  - action: utter_rule16
-
-- story: rule seventeenth path
-  steps: 
-  - intent: rule17
-  - action: utter_rule17
-
-- story: rule eighteenth path
-  steps:
-  - intent: rule18
-  - action: utter_rule18
-
-- story: rule nineteenth path
-  steps:
-  - intent: rule19
-  - action: utter_rule19
-- story: rule twentieth path
-  steps:
-  - intent: rule20
-  - action: utter_rule20
-
-- story: rule twentyone path
-  steps:
-  - intent: rule21
-  - action: utter_rule22
-
-- story: rule twentythree path
-  steps:
-  - intent: rule23
-  - action: utter_rule23
-
-- story: rule twentyfour path
-  steps:
-  - intent: rule24
-  - action: utter_rule24
-
-- story: rule twentyfive path
-  steps:
-  - intent: rule25
-  - action: utter_rule25
-
-- story: rule twentysix path
-  steps:
-  - intent: rule26
-  - action: utter_rule26
-
-- story: rule twentyseven path
-  steps:
-  - intent: rule27
-  - action: utter_rule27
-
-- story: rule twentyeight path
-  steps:
-  - intent: rule28
-  - action: utter_rule28
-
-- story: rule twentynine path
-  steps:
-  - intent: rule29
-  - action: utter_rule29
-
-- story: rule thirty path
-  steps: 
-  - intent: rule30
-  - action: utter_rule30
-
-- story: rule thirtyone path
-  steps:
-  - intent: rule31
-  - action: utter_rule31
-
-- story: rule thirtytwo path
-  steps:
-  - intent: rule32
-  - action: utter_rule32
-
-- story: rule thirtythree path
-  steps: 
-  - intent: rule33
-  - action: utter_rule33
-
-- story: rule thirtyfour path
-  steps:
-  - intent: rule34
-  - action: utter_rule34
-
-- story: rule thirtyfive path
-  steps: 
-  - intent: rule35
-  - action: utter_rule35
-
-- story: rule thirtysix path
-  steps:
-  - intent: rule36
-  - action: utter_rule36
-
-- story: rule thirtyseven path
-  steps:
-  - intent: rule37
-  - action: utter_rule37
-
-- story: rule thirtyeight path
-  steps: 
-  - intent: rule38
-  - action: utter_rule38
-
-- story: rule thirtynine path
-  steps: 
-  - intent: rule39
-  - action: utter_rule39
-
-- story: rule forty path
-  steps: 
-  - intent: rule40
-  - action: utter_rule40
-- story: mine rule
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mine_rule
-  - action: utter_rule 
-
-- story: chairman
-  steps:
-   - intent: greet
-   - action: utter_greet
-   - intent: chairman
-   - action: utter_chairman
-
-- story: committee
-  steps: 
-   - intent: committee
-   - action: utter_committee  
-
-- story: mining
-  steps: 
-   - intent: mining
-   - action: utter_mining   
-
-- story: importance
-  steps: 
-   - intent: importance
-   - action: utter_importance 
-
-- story: types
-  steps: 
-   - intent: types
-   - action: utter_types
-
-- story: impact
-  steps: 
-   - intent: impact
-   - action: utter_impact  
-
-- story: technology
-  steps: 
-   - intent: technology
-   - action: utter_technology
-
-- story: safety
-  steps: 
-   - intent: safety
-   - action: utter_safety  
-
-- story: challenges
-  steps: 
-   - intent: challenges
-   - action: utter_challenges  
-
-- story: exploration
-  steps: 
-   - intent: exploration
-   - action: utter_exploration     
-
-- story: companies
-  steps: 
-   - intent: companies
-   - action: utter_companies   
-
-- story: communities
-  steps: 
-   - intent: communities
-   - action: utter_communities    
   
+  
+- story: info first path
+  steps:
+  - intent: get_info2
+  - action: utter_name2
+
+- story: info second path
+  steps:
+  - intent: get_info3
+  - action: utter_name3
+
+- story: info third path
+  steps:
+  - intent: get_info4
+  - action: utter_name4
+
+
+- story: info fourth path
+  steps:
+  - intent: get_info5
+  - action: utter_name5
+
+
+- story: info fifth path
+  steps:
+  - intent: get_info6
+  - action: utter_name6
+
+
+- story: info sixth path
+  steps:
+  - intent: get_info7
+  - action: utter_name7
+
+
+- story: info seventh path
+  steps:
+  - intent: get_info8
+  - action: utter_name8
+
+
+- story: info eighth path
+  steps:
+  - intent: get_info9
+  - action: utter_name9
+
+
+- story: info ninth path
+  steps:
+  - intent: get_info10
+  - action: utter_name10
+
+
+- story: info tenth path
+  steps:
+  - intent: get_info11
+  - action: utter_name11
+
+
+- story: info eleventh path
+  steps:
+  - intent: get_info12
+  - action: utter_name12
+
+
+- story: info twelth path
+  steps:
+  - intent: get_info13
+  - action: utter_name13
+
+
+- story: info thirteen path
+  steps:
+  - intent: get_info14
+  - action: utter_name14
+
+
+- story: info fourteen path
+  steps:
+  - intent: get_info15
+  - action: utter_name15
+
+
+- story: info fifteen path
+  steps:
+  - intent: get_info16
+  - action: utter_name16
+
+
+- story: info sixteen path
+  steps:
+  - intent: get_info17
+  - action: utter_name17
+
+
+- story: info seventeen path
+  steps:
+  - intent: get_info18
+  - action: utter_name18
+
+
+- story: info eighteen path
+  steps:
+  - intent: get_info19
+  - action: utter_name19
+
+
+- story: info ninteen path
+  steps:
+  - intent: get_info20
+  - action: utter_name20
+
+
+- story: info tweenty path
+  steps:
+  - intent: get_info21
+  - action: utter_name21
+
+
+- story: info tweentyone path
+  steps:
+  - intent: get_info22
+  - action: utter_name22
+
+
+- story: info tweentytwo path
+  steps:
+  - intent: get_info23
+  - action: utter_name23
+
+
+- story: info tweentythree path
+  steps:
+  - intent: get_info24
+  - action: utter_name24
+
+
+- story: info tweentyfour path
+  steps:
+  - intent: get_info25
+  - action: utter_name25
+
+
+- story: info tweentyfive path
+  steps:
+  - intent: get_info26
+  - action: utter_name26
+
+
+- story: info tweentysix path
+  steps:
+  - intent: get_info27
+  - action: utter_name27
+
+
+- story: info tweentyeight path
+  steps:
+  - intent: get_info28
+  - action: utter_name28
+
+
+- story: info tweentynine path
+  steps:
+  - intent: get_info29
+  - action: utter_name29
+
+
+- story: info thirty path
+  steps:
+  - intent: get_info30
+  - action: utter_name30
+
+
+- story: info thirtyone path
+  steps:
+  - intent: get_info31
+  - action: utter_name31
+
+
+- story: info thirtytwo path
+  steps:
+  - intent: get_info32
+  - action: utter_name32
+
+
+- story: info thirtythree path
+  steps:
+  - intent: get_info33
+  - action: utter_name33
+
+
+- story: info thirtyfour path
+  steps:
+  - intent: get_info34
+  - action: utter_name34
+
+
+- story: info thirtyfive path
+  steps:
+  - intent: get_info35
+  - action: utter_name35
+
+
+- story: info thirtysix path
+  steps:
+  - intent: get_info36
+  - action: utter_name36
+
+
+- story: info thirtyseven path
+  steps:
+  - intent: get_info37
+  - action: utter_name37
+
+
+- story: info thirtyseven path
+  steps:
+  - intent: get_info38
+  - action: utter_name38
+
+
+- story: info thirtyeight path
+  steps:
+  - intent: get_info39
+  - action: utter_name39
+
+
+- story: info thirtynine path
+  steps:
+  - intent: get_info40
+  - action: utter_name40
+
+
+- story: info fourty path
+  steps:
+  - intent: get_info41
+  - action: utter_name41
+
+
+- story: info fourtyone path
+  steps:
+  - intent: get_info42
+  - action: utter_name42
+
+
+- story: info fourtytwo path
+  steps:
+  - intent: get_info43
+  - action: utter_name43
+
+
+- story: info fourtythree path
+  steps:
+  - intent: get_info44
+  - action: utter_name44
+
+
+- story: info fourtyfour path
+  steps:
+  - intent: get_info45
+  - action: utter_name45
+
+
+- story: info fourtyfive path
+  steps:
+  - intent: get_info46
+  - action: utter_name46
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
