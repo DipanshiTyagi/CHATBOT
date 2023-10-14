@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.1"
 
 intents:
   - greet
@@ -9,47 +9,52 @@ intents:
   - mood_unhappy
   - bot_challenge
   - tell_name
-  - mine_act
-  - rule1
-  - rule2
-  - rule3
-  - rule4
-  - rule5
-  - rule6
-  - rule7
-  - rule8
-  - rule9
-  - rule10
-  - rule11
-  - rule12
-  - rule13
-  - rule14
-  - rule15
-  - rule16
-  - rule17
-  - rule18
-  - rule19
-  - rule20
-  - rule21
-  - rule22
-  - rule23
-  - rule24
-  - rule25
-  - rule26
-  - rule27
-  - rule28
-  - rule29
-  - rule30
-  - rule31
-  - rule32
-  - rule33
-  - rule34
-  - rule35
-  - rule36
-  - rule37
-  - rule38
-  - rule39
-  - rule40
+  - get_info2
+  - get_info3
+  - get_info4
+  - get_info5
+  - get_info6
+  - get_info7
+  - get_info8
+  - get_info9
+  - get_info10
+  - get_info11
+  - get_info12
+  - get_info13
+  - get_info14
+  - get_info15
+  - get_info16
+  - get_info17
+  - get_info18
+  - get_info19
+  - get_info20
+  - get_info21
+  - get_info22
+  - get_info23
+  - get_info24
+  - get_info25
+  - get_info26
+  - get_info27
+  - get_info28
+  - get_info29
+  - get_info30
+  - get_info31
+  - get_info32
+  - get_info33
+  - get_info34
+  - get_info35
+  - get_info36
+  - get_info37
+  - get_info38
+  - get_info39
+  - get_info40
+  - get_info41
+  - get_info42
+  - get_info43
+  - get_info44
+  - get_info45
+  - get_info46
+  
   
 responses:
   utter_greet:
@@ -72,137 +77,151 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_name:
-  - text: "My name is Bot."
+  - text: My name is Innovate Yourself . 
 
-  utter_act:
-  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
-  
-  utter_rule1:
-  - text: "Chief Inspectors and Inspectors are appointed to ensure the observance of rules, bye-laws, regulations, provisions, and orders made under the Act."
+  utter_name2:
+  - text: The absence of laws governing the mineral sector in India resulted in the exploitation of natural resources without control, leading to the concentration of wealth in the hands of a few and the growth of mafias.
 
-  utter_rule2:
-  - text: "The Central Government has the authority to appoint a court of inquiry in cases of accidents in or about a mine."
-  
-  utter_rule3:
-  - text: "The person appointed to hold an inquiry has all the powers of a civil court under the Code of Civil Procedure 1908, for the purpose of enforcing the attendance of witnesses and compelling the production of documents and material objects."
+  utter_name3:
+  - text: Initially, there were no control, conditions, and rules governing the exploitation of natural resources in India.
 
-  utter_rule4:
-  - text: "The person holding an inquiry under this section must make a report to the Central Government stating the causes of the accident and its circumstances, and adding any observations that he or any of the assessors may think fit to make."
+  utter_name4:
+  - text: The lack of regulation in the mineral sector contributed to the growth of mafias in India.
 
-  utter_rule5:
-  - text: "The Central Government may appoint one or more persons possessing legal or special knowledge to act as assessors in holding the inquiry when an accident of the specified nature occurs in or about a mine."
+  utter_name5:
+  - text: New laws were drafted to govern the minerals of India to address the issues arising from the absence of regulation and control in the mineral sector.
 
-  utter_rule6:
-  - text: "owner, agent, or manager of the mine is responsible for sending notice."
+  utter_name6:
+  - text: the Parliament passed the Mineral Laws (Amendment) Act, 2020 which amends the previous Mines & Mineral (Development and Regulation) Act, 1957 and the Coal Mines (Special Provisions) Act, 2015.
 
-  utter_rule7:
-  - text: "notice should be sent to the Chief Inspector and other authorities as prescribed."
+  utter_name7:
+  - text: The absence of laws allowed communities to thrive and grow in the context of mineral exploitation.
 
-  utter_rule8:
-  - text: "medical practitioner must send a written report to the Chief Inspector."
+  utter_name8:
+  - text: Mining are categorised in two groups . They are mamjor mining and minor mining
 
-  utter_rule9:
-  - text: "The report should include the patient's name and address, the disease they are suffering from or believed to be suffering from, and the name and address of the mine in which the patient is or was last employed."
+  utter_name9:
+  - text: Major Minerals are govered by central government and minor mining are govered by state regualtions as per the power delegated to them.
 
-  utter_rule10:
-  - text: "The notice must be sent in such form and within the time as prescribed."
+  utter_name10:
+  - text: The duties of the manager in an emergency include several actions .
 
-  utter_rule11:
-  - text: "The Chief Inspector and other authorities as prescribed are responsible for receiving the notice."
+  utter_name11:
+  - text: The manager should inform the rescue room or rescue stations serving the mine for necessary assistance.
 
-  utter_rule12:
-  - text: "The purpose is to inform the relevant authorities about cases of diseases related to mining operations for further action and investigation."
+  utter_name12:
+  - text: In the absence of a rescue room, the Principal Official present at the surface should be informed.
 
-  utter_rule13:
-  - text: "The maximum weekly working hours for adults employed above ground in a mine are forty-eight hours."
-
-  utter_rule14:
-  - text: "The maximum daily working hours for adults employed above ground in a mine are nine hours, with the possibility of extension subject to the Chief Inspector's approval."
-
-  utter_rule15:
-  - text: "Work periods and rest intervals are arranged so that they do not spread over more than twelve hours in any day, and there is a rest interval of at least half an hour after every five continuous working hours."
-
-  utter_rule16:
-  - text: "A woman is prohibited from being employed in any part of a mine which is below-ground."
-
-  utter_rule17:
-  - text: "A woman can be employed in a mine above ground only between the hours of 6 am and 7 am."
-
-  utter_rule18:
-  - text: "penalty for counterfeiting or making false statements in certificates under this Act may extend to three months' imprisonment, a fine of up to one thousand rupees, or both."
-
-  utter_rule19:
-  - text: "The penalty for using a counterfeit or false certificate knowingly is imprisonment for up to three months, a fine of up to one thousand rupees, or both."
-
-  utter_rule20:
-  - text: "The penalty for falsifying any plan, section, register, or record required under this Act is imprisonment for up to three months, a fine of up to one thousand rupees, or both."
-
-  utter_rule21:
-  - text: "The penalty for contravening provisions regarding the employment of labor in or about a mine can be imprisonment for up to three months, a fine of up to one thousand rupees, or both."
-
-  utter_rule22:
-  - text: "The penalty for employing persons below eighteen years of age in a mine in contravention of section 40 is a fine of up to five hundred rupees."
-
-  utter_rule23:
-  - text: "The penalty for failing to appoint a manager in contravention of section 17 can be imprisonment for up to three months, a fine of up to two thousand and five hundred rupees, or both."
-
-  utter_rule24:
-  - text: "The penalty for failing to give notice of any accidental occurrence or post a notice as required in section 70 may extend to three months' imprisonment, a fine of up to five hundred rupees, or both."
-
-  utter_rule25:
-  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
-
-  utter_rule26:
-  - text: "Section 40 prohibits the employment of children in underground or open-cast mines."
-
-  utter_rule27:
-  - text: "Section 45 prohibits persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to any mining operation."
-
-  utter_rule28:
-  - text: "The Act provides for the appointment of a Chief Inspector and Inspectors to ascertain that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
-
-  utter_rule29:
-  - text: "The Act prohibits the employment of children below 18 years of age in excavations for mineral extraction."
-
-  utter_rule30:
-  - text: "Section 40 prohibits the employment of children in underground or open-cast mines."
-
-  utter_rule31:
-  - text: "Section 45 restricts persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to mining operations."
-
-  utter_rule32:
-  - text: "The Act provides for the appointment of a Chief Inspector and Inspectors to ensure that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
-
-  utter_rule33:
-  - text: "Children below 18 years of age are prohibited from working in excavations for mineral extraction as per the Act."
-
-  utter_rule34:
-  - text: "Section 40 of the Act covers the prohibition of children's employment in both underground and open-cast mines."
-
-  utter_rule35:
-  - text: "Section 45 prohibits persons below eighteen years of age from being present in any part of a mine above ground during any operation connected with or incidental to mining operations."
-
-  utter_rule36:
-  - text: "The Chief Inspector and Inspectors are responsible for ensuring that the rules, bye-laws, regulations, provisions, and orders made under the Act are observed."
-  
-  utter_rule37:
-  - text: "Section 45 restricts persons below eighteen years of age from being present in any part of a mine above ground."
-
-  utter_rule38:
-  - text: "Chief Inspectors and Inspectors are appointed to ensure the observance of rules, bye-laws, regulations, provisions, and orders made under the Act."
-
-  utter_rule39:
-  - text: "Children are prohibited from working in excavations related to mineral extraction under the Act."
-
-  utter_rule40:
-  - text: "The Central Government is responsible for the safety, welfare, and health of workers employed in mines in India under the Constitution."
+  utter_name13:
+  - text: The manager should summon rescue-trained personnel employed in the mine.
 
 
+  utter_name14:
+  - text: The manager should inform the owner, agent, or manager of nearby mines to make available the services of rescue-trained persons employed therein.
+
+  utter_name15:
+  - text: The manager should inform the rescue station about the nature of the occurrence and state whether assistance would be needed from the rescue station.
 
 
+  utter_name16:
+  - text: One of the manager's duties is to summon medical assistance.
+
+  utter_name17:
+  - text: The manager should send information about the occurrence to the Regional Inspector.
+
+  utter_name18:
+  - text: The manager plays a crucial role in managing and coordinating the response to emergencies in the mine.
+
+  utter_name19:
+  - text: The manager should perform the listed duties immediately upon receiving information of the emergency.
+
+  utter_name20:
+  - text: The purpose of informing nearby mines is to make available the services of rescue-trained persons employed therein if required.
 
 
+  utter_name21:
+  - text: The manager is responsible for summoning medical assistance.
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  utter_name22:
+  - text: In the absence of the manager, the Principal Official present at the surface should carry out the duties outlined in the paragraph.
+
+  utter_name23:
+  - text: The manager is expected to state whether assistance would be needed from the rescue station in terms of the nature of the occurrence.
+
+  utter_name24:
+  - text: The owner, agent, and manager of nearby mines, as well as the Regional Inspector, should be informed about the occurrence during an emergency in the mine.
+
+  utter_name25:
+  - text: The manager of the mine or, in his absence, the principal official present at the surface is responsible.
+
+  utter_name26:
+  - text: They should seek guidance in the event of a major emergency, such as ignition, explosion, big underground fire, or an accident involving a number of persons.
+
+  utter_name27:
+  - text: The manager or principal official should consult a group consisting of a Senior Official of the management, a representative from the Director General of Mines Safety, a representative from the concerned rescue station, and a representative from the recognized Union of the Workers.
+
+  utter_name28:
+  - text: The purpose is to seek guidance, but the manager or principal official must still make necessary decisions and direct operations as the situation warrants without waiting for the group's constitution or deliberations.
+
+  utter_name29:
+  - text: The principal official present at the surface takes control.
+
+  utter_name30:
+  - text: A major emergency includes situations such as ignition, explosion, big underground fire, or accidents involving a number of persons.
+
+  utter_name31:
+  - text: Guidance is sought from a group consisting of a Senior Official of the management, a representative from the Director General of Mines Safety, a representative from the concerned rescue station, and a representative from the recognized Union of the Workers.
+
+  utter_name32:
+  - text: No, they must make necessary decisions and direct operations as the situation warrants without waiting for the group's constitution or deliberations.
+
+
+  utter_name33:
+  - text: The manager or principal official is responsible for directing operations.
+
+  utter_name34:
+  - text: The principal official present at the surface takes charge in the manager's absence.
+
+  utter_name35:
+  - text: The manager or the principal official of the mine present at the surface can authorize entry.
+
+  utter_name36:
+  - text: Entry is allowed if the mine is safe for the purpose.
+
+
+  utter_name37:
+  - text: Only rescue trained persons are permitted to enter the mine.
+
+  utter_name38:
+  - text: They are allowed to enter the mine for the purpose of using self-contained breathing apparatus.
+
+
+  utter_name39:
+  - text: Unauthorized personnel cannot enter unless authorized by the manager or principal official of the mine.
+
+  utter_name40:
+  - text: In the absence of the manager, the principal official of the mine present at the surface can authorize entry.
+
+  utter_name41:
+  - text: The mine must be safe for the purpose of entry. 
+
+  utter_name42:
+  - text: They are allowed to use self-contained breathing apparatus.
+
+
+  utter_name43:
+  - text: Yes, entry is restricted to authorized and rescue trained persons.
+
+  utter_name44:
+  - text: The primary purpose is rescue or recovery work.
+
+
+  utter_name45:
+  - text: Permission can be granted by the manager or the principal official of the mine.
+
+  utter_name46:
+  - text: The principal official can authorize entry in the absence of the manager.
+
+
+  utter_code:
+  - text: The term "Act" refers to the Mines Act, 1952.
