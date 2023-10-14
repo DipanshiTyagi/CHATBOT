@@ -371,6 +371,13 @@ stories:
    - intent: communities
    - action: utter_communities 
 
+- story: happy name path
+  steps:
+    - intent: mine_act
+  - action: utter_act
+  - intent: rule1 
+  - action: utter_rule1
+
 - story: rule second path
   steps:
   - intent: greet
