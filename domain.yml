@@ -168,13 +168,11 @@ responses:
   utter_name13:
   - text: The manager should summon rescue-trained personnel employed in the mine.
 
-
   utter_name14:
   - text: The manager should inform the owner, agent, or manager of nearby mines to make available the services of rescue-trained persons employed therein.
 
   utter_name15:
   - text: The manager should inform the rescue station about the nature of the occurrence and state whether assistance would be needed from the rescue station.
-
 
   utter_name16:
   - text: One of the manager's duties is to summon medical assistance.
@@ -227,7 +225,6 @@ responses:
   utter_name32:
   - text: No, they must make necessary decisions and direct operations as the situation warrants without waiting for the group's constitution or deliberations.
 
-
   utter_name33:
   - text: The manager or principal official is responsible for directing operations.
 
@@ -258,13 +255,11 @@ responses:
   utter_name42:
   - text: They are allowed to use self-contained breathing apparatus.
 
-
   utter_name43:
   - text: Yes, entry is restricted to authorized and rescue trained persons.
 
   utter_name44:
   - text: The primary purpose is rescue or recovery work.
-
 
   utter_name45:
   - text: Permission can be granted by the manager or the principal official of the mine.
@@ -272,7 +267,7 @@ responses:
   utter_name46:
   - text: The principal official can authorize entry in the absence of the manager.
 
-   utter_chairman:
+  utter_chairman:
   - text: The Chairman must direct that a question be considered at a meeting if three or more members make such a request."
 
   utter_committee:
