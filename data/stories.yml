@@ -302,7 +302,74 @@ stories:
   - intent: get_info46
   - action: utter_name46
 
+- story: mine rule
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mine_rule
+  - action: utter_rule 
 
+- story: chairman
+  steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: chairman
+   - action: utter_chairman
+
+- story: committee
+  steps: 
+   - intent: committee
+   - action: utter_committee  
+
+- story: mining
+  steps: 
+   - intent: mining
+   - action: utter_mining   
+
+- story: importance
+  steps: 
+   - intent: importance
+   - action: utter_importance 
+
+- story: types
+  steps: 
+   - intent: types
+   - action: utter_types
+
+- story: impact
+  steps: 
+   - intent: impact
+   - action: utter_impact  
+
+- story: technology
+  steps: 
+   - intent: technology
+   - action: utter_technology
+
+- story: safety
+  steps: 
+   - intent: safety
+   - action: utter_safety  
+
+- story: challenges
+  steps: 
+   - intent: challenges
+   - action: utter_challenges  
+
+- story: exploration
+  steps: 
+   - intent: exploration
+   - action: utter_exploration     
+
+- story: companies
+  steps: 
+   - intent: companies
+   - action: utter_companies   
+
+- story: communities
+  steps: 
+   - intent: communities
+   - action: utter_communities    
 
 
 
